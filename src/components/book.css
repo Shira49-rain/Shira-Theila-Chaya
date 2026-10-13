@@ -1,0 +1,54 @@
+/* עיצוב בסיסי לכרטיס הספר */
+.book-card {
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+/* עיצוב לספר פופולרי (מעל 100 לייקים) */
+.popular-book {
+  background: linear-gradient(135deg, #fff8e1, #ffecb3);
+  border: 2px solid #ffb300;
+}
+
+.popular-book h3 {
+  color: #ff6f00;
+  margin-top: 0;
+}
+
+.badge-popular {
+  color: #d84315;
+  font-weight: bold;
+  background-color: #ffccbc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+/* עיצוב לספר רגיל */
+.regular-book h3 {
+  color: #333333;
+  margin-top: 0;
+}
+
+/* עיצוב ומסגרת מיוחדת ובולטת לספר שאינו זמין */
+.unavailable-book {
+  border: 3px dashed #d32f2f !important;
+  background-color: #ffebee !important;
+}
+
+.unavailable-notice {
+  color: #c62828;
+  font-weight: bold;
+  background-color: #ffcdd2;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid #ef9a9a;
+}
